@@ -10,7 +10,7 @@ SCOPES = ['https://mail.google.com/']
 
 service = Create_Service(CLIENT_SECRET_FILE, API_NAME, API_VERSION, SCOPES)
 
-emailMsg = 'You won $100,000'
+emailMsg = 'xd'
 mimeMessage = MIMEMultipart()
 mimeMessage['to'] = '<Receipient>@gmail.com'
 mimeMessage['subject'] = 'You won'
